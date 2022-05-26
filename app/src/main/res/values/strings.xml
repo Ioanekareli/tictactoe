@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="player_1">Player 1 :</string>
+    <string name="player_2">Player 2 :</string>
+    <string name="score">score</string>
+    <string name="reset_game">Reset Game</string>
+    <string name="player_turn">Player Turn</string>
+    <string name="turn">Turn -</string>
+    <string name="player_1_turn">Player 1 Turn</string>
+</resources>
