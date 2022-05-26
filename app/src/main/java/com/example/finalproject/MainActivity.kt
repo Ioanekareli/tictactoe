@@ -72,6 +72,11 @@ class MainActivity : AppCompatActivity() {
                     Toast.makeText(this, "Player 2 Won", Toast.LENGTH_SHORT).show()
                 }
 
+                if (drawMatch()){
+                    noClickable()
+                    Toast.makeText(this, "Draw", Toast.LENGTH_SHORT).show()
+                }
+
             }
 
         }
@@ -105,6 +110,15 @@ class MainActivity : AppCompatActivity() {
             btn.isClickable = false
         }
 
+    }
+
+    private fun drawMatch():Boolean{
+        for (btn in btnList){
+            if (btn.text == ""){
+                return false
+            }
+        }
+        return true
     }
 
 

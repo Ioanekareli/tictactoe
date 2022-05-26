@@ -7,4 +7,5 @@
     <string name="player_turn">Player Turn</string>
     <string name="turn">Turn -</string>
     <string name="player_1_turn">Player 1 Turn</string>
+    <string name="_0">0</string>
 </resources>
